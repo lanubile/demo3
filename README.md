@@ -8,5 +8,16 @@ Questo è un esempio di uso di **Mermaid**
 ```mermaid
 classDiagram
 class Scacchiera
-Scachiera -- Cella
+class Cella {
+    colore
+    posizione
+}
+Scacchiera *-- Cella
+Cella "0..1" -- "0..1" Pezzo : è occupata da
+Pezzo <|-- Pedone
+Pezzo <|-- Torre
+Pezzo <|-- Cavallo
+Pezzo <|-- Alfiere
+Pezzo <|-- Regina
+Pezzo <|-- Re
 ```
