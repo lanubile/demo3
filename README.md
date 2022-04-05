@@ -20,5 +20,5 @@ Pezzo <|-- Cavallo
 Pezzo <|-- Alfiere
 Pezzo <|-- Regina
 Pezzo <|-- Re
-Mossa -- "destinazione" Cella
+Mossa -- "+destinazione" Cella
 ```
